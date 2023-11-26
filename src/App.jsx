@@ -6,19 +6,11 @@ import {BrowserRouter, Routes, Route, useNavigate} from "react-router-dom"
 import ReactLoading from "react-loading"
 import Home from "./Ecommerce/HomePage/Home";
 import "./Ecommerce/cart.css";
-
 import Item from "./Ecommerce/SinglePage/Item";
 import "./Ecommerce/cart.css"
 import NotFound from "./Ecommerce/NotFound";
 function App() {
-  const { loading } = useGlobalContext();
-  if (loading) {
-    return (
-      <div>
-        <ReactLoading type="spokes" color="orange" height={500} width={300}/>
-      </div>
-    );
-  }
+  
   return (
     <BrowserRouter>
       <Navbar  />
