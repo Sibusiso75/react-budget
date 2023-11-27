@@ -3,7 +3,7 @@ const cartItems = [
       id: 1,
       title: "Apple iPhone ",
       details: "14 Dual Sim 512Gb - Sky Blue",
-      price: 245000,
+      price: 24500,
       image: "https://th.bing.com/th?id=OPE.dJA5RdMwEMKSHw300C300&w=248&h=248&dpr=1.2&pid=21.1",
       // image: <AiFillMobile />,
       amount: 1,
